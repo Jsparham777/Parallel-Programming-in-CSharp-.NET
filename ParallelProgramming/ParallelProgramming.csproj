@@ -43,11 +43,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="10_Template.cs" />
+    <Compile Include="Section 1 - Task Programming\6_WaitingForTimetoPass.cs" />
+    <Compile Include="Section 1 - Task Programming\7_ExceptionHandling.cs" />
+    <Compile Include="Section 1 - Task Programming\5_WaitingForTasks.cs" />
+    <Compile Include="Section 1 - Task Programming\4_CancellingTasks.cs" />
+    <Compile Include="Section 1 - Task Programming\3_CreatingAndStartingTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\10_CriticalSections.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Section 4\" />
+    <Folder Include="Section 5\" />
+    <Folder Include="Section 6\" />
+    <Folder Include="Section 7\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
