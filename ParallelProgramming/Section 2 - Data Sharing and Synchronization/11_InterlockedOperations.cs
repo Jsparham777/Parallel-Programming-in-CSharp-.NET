@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 namespace ParallelProgramming
 {
     /// <summary>
-    /// Critical Sections (Section 2 - 10)
+    /// Interlocked Operations (Section 2 - 11)
     /// </summary>
-    internal static class CriticalSections
+    internal static class InterlockedOperations
     {
-        public static void Start(int bankAccountVersionToUse = 1)
+        public static void Start()
         {
             var tasks = new List<Task>();
-
-            var ba = new BankAccount1();
+            
+            var ba = new BankAccount2();
 
             for (int i = 0; i < 10; i++)
             {

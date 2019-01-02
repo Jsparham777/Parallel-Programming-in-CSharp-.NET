@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ParallelProgramming
 {
@@ -18,7 +14,11 @@ namespace ParallelProgramming
             //ExceptionHandling.Start();
 
             //SECTION 2 - 
-
+            //CriticalSections.Start();
+            //InterlockedOperations.Start();
+            //SpinLockingAndLockRecursion.Start();
+            //SpinLockingAndLockRecursion.Start2();
+            Mutexes.Start();
 
             //SECTION 3 - 
 
@@ -33,7 +33,7 @@ namespace ParallelProgramming
 
 
             //SECTION 7 -
-            
+
 
 
             Console.WriteLine("Main program done.");

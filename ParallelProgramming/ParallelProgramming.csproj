@@ -51,7 +51,14 @@
     <Compile Include="Section 1 - Task Programming\3_CreatingAndStartingTasks.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\12_SpinLockingAndLockRecursion.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\13_Mutex.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\11_InterlockedOperations.cs" />
     <Compile Include="Section 2 - Data Sharing and Synchronization\10_CriticalSections.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\Lesson 13\BankAccount4.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\Lesson 12\BankAccount3.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\Lesson 11\BankAccount2.cs" />
+    <Compile Include="Section 2 - Data Sharing and Synchronization\Lesson 10\BankAccount1.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
